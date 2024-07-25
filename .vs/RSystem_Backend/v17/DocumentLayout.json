@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RSystems\\RSystem_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\services\\exceptionhandling\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\services\\exceptionhandling\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\services\\contactuserjsonfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\services\\contactuserjsonfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\models\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\models\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\usercontact_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\usercontact_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|d:\\rsystems\\rsystem_backend\\usercontact_api\\wwwroot\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C9E9254-5CE6-48B9-89B9-FB719D98C3AD}|UserContact_API\\UserContact_API.csproj|solutionrelative:usercontact_api\\wwwroot\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactList.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Models\\ContactList.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Models\\ContactList.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Models\\ContactList.cs",
+              "RelativeToolTip": "UserContact_API\\Models\\ContactList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T08:22:36.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "UserContact_API\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:40:45.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Services\\Exceptionhandling\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Services\\Exceptionhandling\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Services\\Exceptionhandling\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "UserContact_API\\Services\\Exceptionhandling\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:10:13.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\.gitignore",
+              "RelativeDocumentMoniker": "UserContact_API\\.gitignore",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\.gitignore",
+              "RelativeToolTip": "UserContact_API\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-24T08:48:54.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactUserJsonFileService.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Services\\ContactUserJsonFileService.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Services\\ContactUserJsonFileService.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Services\\ContactUserJsonFileService.cs",
+              "RelativeToolTip": "UserContact_API\\Services\\ContactUserJsonFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:39:43.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Models\\Response.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Models\\Response.cs",
+              "RelativeToolTip": "UserContact_API\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:54:58.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Program.cs",
+              "RelativeDocumentMoniker": "UserContact_API\\Program.cs",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\Program.cs",
+              "RelativeToolTip": "UserContact_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:29:51.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "contacts.json",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\wwwroot\\contacts.json",
+              "RelativeDocumentMoniker": "UserContact_API\\wwwroot\\contacts.json",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\wwwroot\\contacts.json",
+              "RelativeToolTip": "UserContact_API\\wwwroot\\contacts.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-23T17:16:40.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserContact_API.csproj",
+              "DocumentMoniker": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\UserContact_API.csproj",
+              "RelativeDocumentMoniker": "UserContact_API\\UserContact_API.csproj",
+              "ToolTip": "D:\\RSystems\\RSystem_Backend\\UserContact_API\\UserContact_API.csproj",
+              "RelativeToolTip": "UserContact_API\\UserContact_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-23T17:08:16.99Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
