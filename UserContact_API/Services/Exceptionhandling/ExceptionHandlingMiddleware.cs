@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace UserContact_API.Services.Exceptionhandling
+namespace Employee_API.Services.Exceptionhandling
 {
     public class ExceptionHandlingMiddleware
     {

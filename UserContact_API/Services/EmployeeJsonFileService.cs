@@ -1,28 +1,25 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿
 using System.Text.Json;
-using Microsoft.AspNetCore.Hosting;
-using UserContact_API.Models;
+using Employee_API.Models;
 
-namespace UserContact_API.Services
+namespace Employee_API.Services
 {
-    public class ContactUserJsonFileService: IContactUserJsonFileService
+    public class EmployeeJsonFileService: IEmployeeJsonFileService
     {
 
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ContactUserJsonFileService(IWebHostEnvironment webHostEnvironment)
+        public EmployeeJsonFileService(IWebHostEnvironment webHostEnvironment)
         {
             _webHostEnvironment = webHostEnvironment;
         }
 
         private string JsonFileName
         {
-            get { return Path.Combine(_webHostEnvironment.WebRootPath, "", "contacts.json"); }
+            get { return Path.Combine(_webHostEnvironment.WebRootPath, "", "empoyees.json"); }
         }
 
-        public async Task<Response> GetContactList()
+        public async Task<Response> GetEmployeeList()
         {
             Response response = new Response();
             try
@@ -32,7 +29,7 @@ namespace UserContact_API.Services
                     await File.WriteAllTextAsync(JsonFileName, "[]");
                 }
                 string jsonData = await File.ReadAllTextAsync(JsonFileName);
-                var users = JsonSerializer.Deserialize<ContactList[]>(jsonData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                var users = JsonSerializer.Deserialize<EmployeeList[]>(jsonData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
                 if (users != null)
                 {
@@ -54,20 +51,20 @@ namespace UserContact_API.Services
             return response;
         }
 
-        public async Task<Response> AddContact(ContactList newContact)
+        public async Task<Response> AddEmployee(EmployeeList newEmployee)
         {
             Response response = new();
             try
             {
-                var currentResponse = await GetContactList();
-                    var contacts = currentResponse.ResponseObject as ContactList[];
-                if (newContact.Id > 0)
+                var currentResponse = await GetEmployeeList();
+                    var contacts = currentResponse.ResponseObject as EmployeeList[];
+                if (newEmployee.Id > 0)
                 {
                     if (contacts != null) {
-                        var contactIndex = contacts.ToList().FindIndex(c => c.Id == newContact.Id);
+                        var contactIndex = contacts.ToList().FindIndex(c => c.Id == newEmployee.Id);
                         if (contactIndex >= 0)
                         {
-                            contacts[contactIndex] = newContact;
+                            contacts[contactIndex] = newEmployee;
                             await File.WriteAllTextAsync(JsonFileName, JsonSerializer.Serialize(contacts));
                             response.ResponseStatus = true;
                             response.ResponseMessage = "Contact updated successfully";
@@ -89,8 +86,8 @@ namespace UserContact_API.Services
                         {
                             nextId++;
                         }
-                        newContact.Id = nextId;
-                        var updatedContacts = contacts.Append(newContact).ToArray();
+                        newEmployee.Id = nextId;
+                        var updatedContacts = contacts.Append(newEmployee).ToArray();
                         await File.WriteAllTextAsync(JsonFileName, JsonSerializer.Serialize(updatedContacts));
 
                         response.ResponseStatus = true;
@@ -111,13 +108,13 @@ namespace UserContact_API.Services
             return response;
         }
 
-        public async Task<Response> RemoveContact(int Id)
+        public async Task<Response> RemoveEmployee(int Id)
         {
             Response response = new();
             try
             {
-                var currentResponse = await GetContactList();
-                var contacts = currentResponse.ResponseObject as ContactList[];
+                var currentResponse = await GetEmployeeList();
+                var contacts = currentResponse.ResponseObject as EmployeeList[];
 
                 if (contacts != null)
                 {

@@ -1,4 +1,4 @@
-﻿namespace UserContact_API.Models
+﻿namespace Employee_API.Models
 {
     public class Response
     {
